@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<meta name="ad.size" content="width=300,height=600">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=300,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Optimi Health Corp. — Investor Relations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600&amp;family=Public+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--
+  Optimi Health Corp. — IR display banner, 300x600 — Concept D: Corporate site / brand-native.
+  Promotes: https://media-console-group.github.io/optimihealth-ir-concept/
+  Styled from the company's own CORPORATE website (https://www.optimi.net/), not the IR
+  landing page that Concepts A-C are built from: its white header + logo
+  lockup, heading/body fonts, palette, accent underline bars, button style
+  and footer strip. "Homepage in miniature": each slide is one module of the
+  corporate homepage, alternating photo and light grounds. This build uses optimi.net's modules: 1 hero + key facts -> 2 product card -> 3 product card -> 4 numbered columns.
+  Module classes (m-hero / m-stats / m-split / m-band) and the shared parts
+  (d-stat, d-list, d-arrows) live in style.css; every colour is a :root token
+  filled from brand.json "corp". Re-module a slide if the site has no such
+  module. Photos are the site's own photography, cropped into assets/;
+  assets/logo.svg is the site's own logo file. Every claim comes from the
+  project fact sheet (.tmp/facts.md).
+-->
+
+<div id="banner" aria-label="Optimi Health Corp. investor relations advertisement">
+
+  <div id="slides">
+
+    <!-- Slide 1 — Overview -->
+    <section class="slide o-hero" data-index="0">
+      <!-- Module: optimi.net homepage hero (h1 "A commercial-stage psychedelic drug manufacturer." beside the
+           "Product line" image) and the four-cell key-facts strip under it. Facts: 6-K Nov 18 / Oct 26 2026; optimi.net. -->
+      <div class="o-eyebrow"><span>Product line</span><span>NASDAQ &middot; CSE &middot; FSE</span></div>
+      <figure class="o-fig">
+        <img class="o-img" src="assets/slide-1.jpg" alt="Optimi product line: Natural Psilocybin Extract, MDMA 60 mg, MDMA 40 mg">
+        <figcaption>Product images are for illustrative purposes only.</figcaption>
+      </figure>
+      <h2 class="o-h1">A commercial-stage psychedelic drug manufacturer.</h2>
+      <div class="o-cells">
+        <div><p class="o-k">Licence</p><p class="o-v">GMP</p><p class="o-s">Health Canada DEL</p></div>
+        <div><p class="o-k">Active market</p><p class="o-v">Australia</p><p class="o-s">TGA Authorised Prescribers</p></div>
+      </div>
+    </section>
+
+    <!-- Slide 2 — In market -->
+    <section class="slide o-prod" data-index="1">
+      <!-- Module: optimi.net "02 Products / In market." product card (bottle on the pale card, name, API / Access /
+           Use rows). Facts: 6-K Nov 18 (MDMA prescribed in Australia since Oct 2024), Oct 26 (Optimi Australia). -->
+      <div class="o-sec"><span><b>02</b> Products</span><span>In commercial supply</span></div>
+      <h2 class="o-h2">In market.</h2>
+      <div class="o-card">
+        <img class="o-bottle" src="assets/slide-2.jpg" alt="MDMA 60 mg capsule bottle (illustrative product image)">
+        <div class="o-card-body">
+          <p class="o-tag">Synthetic &middot; Capsule</p>
+          <h3>MDMA 60&nbsp;mg</h3>
+          <dl class="o-spec"><div><dt>API</dt><dd>MDMA HCl</dd></div><div><dt>Access</dt><dd>Australia TGA APS</dd></div><div><dt>Use</dt><dd>PTSD</dd></div></dl>
+        </div>
+      </div>
+      <p class="o-p">Prescribed by authorised prescribers in Australia since October 2024. A new subsidiary, Optimi Australia, now sells to clinics and pharmacies there.</p>
+    </section>
+
+    <!-- Slide 3 — OPTI-101 -->
+    <section class="slide o-prod" data-index="2">
+      <!-- Module: optimi.net product card for Natural Psilocybin Extract, with the "Clinical trials" section's copy.
+           Facts: 6-K Nov 18 2026 (OPTI-101 Phase 2b proposal, Q1 2027, 2028), Sep 2025 Australian supply. -->
+      <div class="o-sec"><span><b>03</b> Clinical trials</span><span>OPTI-101</span></div>
+      <h2 class="o-h2">Natural psilocybin. A Phase&nbsp;2b planned.</h2>
+      <div class="o-card">
+        <img class="o-bottle" src="assets/slide-3.jpg" alt="Natural Psilocybin Extract capsule bottle (illustrative product image)">
+        <div class="o-card-body">
+          <p class="o-tag">Natural &middot; Capsule</p>
+          <h3>OPTI-101</h3>
+          <dl class="o-spec"><div><dt>Design</dt><dd>Randomized, double-blind</dd></div><div><dt>Size</dt><dd>200 adults, severe MDD</dd></div><div><dt>Dosing</dt><dd>Expected Q1 2027</dd></div></dl>
+        </div>
+      </div>
+      <p class="o-p">The amended protocol is under Health Canada review. The same capsule has been supplied to Australian prescribers since September 2025.</p>
+    </section>
+
+    <!-- Slide 4 — OPTI-201 and supply -->
+    <section class="slide o-list" data-index="3">
+      <!-- Module: optimi.net "04 Manufacturing / Built to pharmaceutical standards." three numbered columns,
+           stacked for portrait. Facts: 6-K Nov 18 (OPTI-201 Phase 3, U.S. IND 2027), Oct 20 (MDMA batch), Sep 23. -->
+      <div class="o-sec"><span><b>04</b> Pipeline</span><span>Health Canada &middot; FDA</span></div>
+      <h2 class="o-h2">Built for the 2027 trials.</h2>
+      <ol class="o-cols">
+        <li><span class="o-n">01</span><h3>OPTI-201 Phase&nbsp;3</h3><p>MDMA-assisted therapy for PTSD in 100 veterans and front-line workers. Holds a Health Canada No Objection Letter; expected to begin in 2027.</p></li>
+        <li><span class="o-n">02</span><h3>Supply already made</h3><p>MDMA and psilocybin batches for the planned trials and Australian supply were completed in Princeton in Sep and Oct 2026.</p></li>
+        <li><span class="o-n">03</span><h3>U.S. pathway</h3><p>Preparing a U.S. IND for OPTI-101; an IND for OPTI-201 is planned for 2027.</p></li>
+      </ol>
+    </section>
+
+  </div>
+
+  <!-- Persistent chrome — the corporate site's header, never rotates -->
+  <header id="top-bar" class="reveal" data-delay="0">
+    <img id="logo" src="assets/logo.svg" alt="Optimi Health Corp." width="92" height="23">
+    <span id="ticker">Nasdaq:&nbsp;OPTH</span>
+  </header>
+
+  <!-- Slider controls: square petrol buttons, like optimi.net's filled button -->
+  <button type="button" class="nav-arrow" id="arrow-prev" aria-label="Previous slide">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 6 8l4 5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button type="button" class="nav-arrow" id="arrow-next" aria-label="Next slide">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l4 5-4 5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div id="bottom-fixed" class="reveal" data-delay="4">
+    <div id="dots" role="tablist" aria-label="Slide selector">
+      <button class="dot active" data-index="0" aria-label="Slide 1: Overview"></button>
+      <button class="dot" data-index="1" aria-label="Slide 2: In market"></button>
+      <button class="dot" data-index="2" aria-label="Slide 3: OPTI-101"></button>
+      <button class="dot" data-index="3" aria-label="Slide 4: Pipeline"></button>
+    </div>
+
+    <!-- The corporate site's .btn: radius/gradient border from brand.json corp, arrow after the label -->
+    <a href="#" id="cta">
+      <span>Investors</span>
+      <svg id="cta-arrow" viewBox="0 0 24 25" aria-hidden="true"><path d="M12 4.18066L10.585 5.59566L16.17 11.1807H4V13.1807H16.17L10.585 18.7657L12 20.1807L20 12.1807L12 4.18066Z"/></svg>
+    </a>
+
+    <!-- The corporate site's footer strip, carrying the required forward-looking-statements line -->
+    <p id="fls"><span>Optimi&rsquo;s psilocybin and MDMA products are investigational; none has market authorization from Health Canada or the FDA. Trial plans and timing are forward-looking. See SEC filings for risk factors.</span></p>
+  </div>
+
+  <!-- Standard HTML5-ad click-tag plumbing -->
+  <div id="click-tag-wrapper"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
